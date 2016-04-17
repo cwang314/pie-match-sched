@@ -1,5 +1,5 @@
 # Base image is a Node image with gulp installed globally
-FROM danieljiang/gulp:2.0
+FROM danieljiang/polymer:1.0
 
 MAINTAINER <danieljiang@pioneers.berkeley.edu>
 
