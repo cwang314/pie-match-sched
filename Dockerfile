@@ -8,6 +8,7 @@ MAINTAINER <danieljiang@pioneers.berkeley.edu>
 
 # Add files from project folder to working directory
 ADD . /usr/src/
+VOLUME /usr/src/
 
 # Expose port 5000
 # "EXPOSE 5000" is not necessary, but it lets you know that something is going on at port 5000
